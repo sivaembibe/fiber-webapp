@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <filter id="prefix__a" width="180%" height="183.3%" x="-40%" y="-40%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" filter="url(#prefix__a)">
+        <g transform="translate(5)">
+            <path fill="#FF3E3B" d="M13.125 11.988l-.137.043c-1.195.42-2.003 1.527-2.05 2.78V15c-.024-1.315.793-2.5 2.03-2.944l.138-.043c2.187-.87 3.621-2.985 3.619-5.338V6.65c.005 2.348-1.42 4.463-3.6 5.338zM1.694 26.806V23.35c-.017-2.977 1.791-5.66 4.556-6.763l.188-.075c.664-.205 1.121-.816 1.13-1.512.032-.686-.393-1.31-1.043-1.531l-.113-.038c-2.785-1.086-4.622-3.766-4.63-6.756V3.194h16.45V6.65c-.006 2.982-1.836 5.657-4.613 6.744l-.15.05c-.653.23-1.074.865-1.031 1.556 0 .705.458 1.327 1.13 1.538l.213.08c2.755 1.11 4.553 3.788 4.538 6.757v3.431H1.694z"/>
+            <path fill="#F9F9F9" d="M7.244 11.044h.137c.546.201 1.044.514 1.463.918.646.633 1.679.633 2.325 0 .418-.404.916-.717 1.462-.918h.131c1.792-.715 2.972-2.446 2.982-4.375.003-.933-.749-1.693-1.681-1.7H5.937c-.448.001-.878.182-1.193.5-.316.32-.491.751-.488 1.2.011 1.93 1.193 3.662 2.988 4.375z"/>
+            <rect width="19.788" height="3.194" x=".113" fill="#B71D35" rx="1.587"/>
+            <rect width="19.788" height="3.194" x=".113" y="26.806" fill="#B71D35" rx="1.587"/>
+            <path fill="#F9F9F9" d="M14.431 26.806c-.107-.332-.291-.633-.537-.881l-2.35-2.375c-.406-.41-.96-.642-1.538-.642-.577 0-1.131.231-1.537.642l-2.35 2.375c-.246.248-.43.55-.538.881h8.85z"/>
+        </g>
+    </g>
+</svg>

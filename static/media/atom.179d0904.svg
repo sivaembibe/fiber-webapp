@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <filter id="prefix__a" width="176.7%" height="167.7%" x="-38.3%" y="-33.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#prefix__a)" transform="translate(3)">
+        <g transform="translate(.933 .933)">
+            <path stroke="#209AF7" stroke-linecap="round" stroke-width="1.215" d="M27.487 14.852c0 7.623-5.619 13.327-13.516 13.327S.456 22.475.456 14.852 5.8.978 13.68.978c3.68-.025 7.217 1.431 9.814 4.04 2.596 2.61 4.035 6.153 3.993 9.834z"/>
+            <path stroke="#209AF7" stroke-linecap="round" stroke-width="1.215" d="M22.16 14.33c0 4.956-3.208 9.069-8.347 9.069-5.047.088-9.21-3.931-9.3-8.978 0-4.957 2.788-7.654 7.8-8.741 6.919-1.507 9.847 3.687 9.847 8.65z"/>
+            <circle cx="13.971" cy="14.579" r="4.853" fill="#C466FF" fill-rule="nonzero"/>
+            <path fill="#8400FF" fill-rule="nonzero" d="M13.746 14.986c-2.812-.924-4.361-.407-4.634-.322.023 2.684 2.218 4.84 4.902 4.817 2.684-.024 4.84-2.218 4.817-4.902v-.183c-2.132 1.1-3.718 1.04-5.085.59z"/>
+            <circle cx="23.083" cy="3.341" r="3.341" fill="#43BF3F" fill-rule="nonzero"/>
+            <path fill="#1F892E" fill-rule="nonzero" d="M22.925 3.645c-1.914-.608-3-.292-3.19-.219.124 1.767 1.602 3.132 3.373 3.115 1.772-.018 3.222-1.413 3.31-3.182v-.121c-1.051.633-2.325.781-3.493.407z"/>
+            <circle cx="5.467" cy="10.023" r="2.43" fill="#209AF7" fill-rule="nonzero"/>
+            <path fill="#1059B1" fill-rule="nonzero" d="M5.352 10.223c-.734-.303-1.547-.358-2.315-.158.014 1.342 1.112 2.42 2.454 2.406 1.342-.014 2.42-1.112 2.406-2.454v-.091c-.763.47-1.695.578-2.545.297z"/>
+            <circle cx="22.961" cy="24.784" r="2.43" fill="#FFB200" fill-rule="nonzero"/>
+            <path fill="#FF6700" fill-rule="nonzero" d="M22.852 24.984c-.734-.309-1.55-.365-2.32-.158.013 1.342 1.112 2.42 2.454 2.406 1.342-.014 2.419-1.112 2.405-2.454v-.091c-.763.462-1.69.57-2.539.297z"/>
+        </g>
+    </g>
+</svg>
